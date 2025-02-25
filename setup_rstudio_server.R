@@ -1,5 +1,5 @@
 ## install if needed (do this exactly once):
-## install.packages("usethis")
+## sudo su - -c "R -e \"install.packages('usethis', repos='http://cran.rstudio.com/', dependencies=TRUE)\""
 
 library(usethis)
 use_git_config(user.name = "John Doe", user.email = "john@example.org")
